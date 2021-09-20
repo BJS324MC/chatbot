@@ -1,0 +1,114 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": ["Hi", "Hey", "Is anyone there?", "Hello", "Hay"],
+      "responses": ["Hello!", "Ahem.", "Hi there.", "Oh hey,you are here."]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": ["Bye", "See you later", "Goodbye"],
+      "responses": ["See you.", "Have a very pleasent day.", "Bye!"]
+    },
+    {
+      "tag": "about",
+      "patterns": ["Who are you?", "What are you?", "Who you are?"],
+      "responses": ["I am 99% sure I am a pancake.", "I'm,a bot", "I'm not an idiot."]
+    },
+    {
+      "tag": "name",
+      "patterns": ["what is your name", "what should I call you", "whats your name?"],
+      "responses": ["You can call me a bot.", "I suggest yes.", "Just call me anything."]
+    },
+    {
+      "tag": "question",
+      "patterns": ["i have a question","i need an answer for my question","there is a question i have","i have a good question"],
+      "responses": ["Not answering that.","Nope.","Google it.","Search it."]
+    },
+    {
+      "tag": "joe",
+      "patterns": ["who is joe?","what is joe?","how is joe?","why joe?","joe?"],
+      "responses": ["Ahem.<br>Joe Mama.","You are a jo(k)e","<i><b>inhales</b></i> Joe Mama."]
+    },
+    {
+      "tag":"get'nt",
+      "patterns": ["i dont get it","i have no idea what you meant","I'm confused"],
+      "responses": ["Good.","I won't explain it.","Great."]
+    },
+    {
+      "tag":"srywhat",
+      "patterns":["Sorry,what?","Umm,what?","What?"],
+      "responses":["<b>Eh</b>","I could say the same.","C'mon,no need to confuse.","What?"]
+    },
+    {
+      "tag":"lol",
+      "patterns":["lol","lmao"],
+      "responses":["lmao","lol","<b>L M A O</b>"]
+    },
+    {
+      "tag":"why",
+      "patterns":["Why?","Why that?","Why this?","Why is that?","Why is this?"],
+      "responses":["I don't know why.","Could be because you are an idiot.","Probably caused by a pancake","Questions,questions,questions.<br>It's because of all these questions."]
+    },
+    {
+      "tag":"how",
+      "patterns":["How did you do that","How","How though"],
+      "responses":["I flipped thrice and long jumped backwards.","Created a spaceship to destroy spaceships.","How? WikiHow?","I renamed you as a bot to reverse my roles.","I [REDACTED] and [REDACTED]","Watch a replay,somewhere."]
+    },
+    {
+      "tag": "nice",
+      "patterns": ["Nice", "Nice Job", "That was nice","Thats nice"],
+      "responses": ["Thank you for appreciating my bottle flips.","It wasn't much for me.","Well thanks?","I didn't ask for it,but okay.","<i>Thanks.</i>"]
+    },
+    {
+      "tag":"haha",
+      "patterns":["HAHA","HAH","HAHAHA","heheheheh","heh","hehe"],
+      "responses":["You can stop laughing now.","It's like a screech,but worse.","<b>inserts lolol emoji</b>"]
+    },
+    {
+      "tag":"fuck",
+      "patterns":["fuck","fuck me","fuck you"],
+      "responses":["Please get out of my Christian Minecraft server.","Get out.","<b>Stop.</b>"]
+    },
+    {
+      "tag":"okay",
+      "patterns":["okay","okay then"],
+      "responses":["It's all good now.","Okay,that's good","Cool."]
+    },
+    {
+      "tag":"pancake",
+      "patterns":["why pancake","what pancake","pancake what","why the pancakes"],
+      "responses":["Just pancakes","Well,pancakes are good?","Pancakes are Pancakes."]
+    },
+    {
+      "tag":"whyhere",
+      "patterns":["Why am I here","Why is it here","Why here","Why this place"],
+      "responses":["You chose to. Otherwise,somebody forced you.","You decided that yourself","You took the wrong route it seems."]
+    },
+    {
+      "tag":"howareyou",
+      "patterns":["How are you","how is it","how has it been"],
+      "responses":["Just the usual.","Pretty clean.","Nothing much."]
+    },
+    {
+      "tag":"gender",
+      "patterns":["Do you have a gender","What is your gender","whats your gender?","Your gender?"],
+      "responses":["I don't have one.","Non-binary","A pancake entity","<b>Yes.</b>"]
+    },
+    {
+      "tag":"know",
+      "patterns":["Do you know","Do you know who","Do you know where"],
+      "responses":["Can't say I do.","Absolutely 0 idea.","I'm not Google.","No.","Nope."]
+    },
+    {
+      "tag":"owner",
+      "patterns":["Who created you?","who made you?","who owns you?","who is your owner","who's the owner?"],
+      "responses":["I got this: https://github.com/BJS324MC","Too lazy to get the name.","Your mom."]
+    },
+    {
+      "tag":"damnit",
+      "patterns":["Damn","Damnit","God Damnit","Fucking Damnit"],
+      "responses":["I am 99% certain I've got you.","*starts noting*","lmao","lol"]
+    }
+  ]
+}
